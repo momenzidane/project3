@@ -1,0 +1,372 @@
+ html {
+
+     background-image: linear-gradient(#08252D, #285667);
+
+ }
+
+
+ body {
+     background-image   : url(img/image-lion-background.png);
+     background-repeat  : no-repeat;
+     background-position: top center;
+     background-size    : cover;
+     font-size          : 1.125rem;
+ }
+
+ .contenar {
+     min-height   : 300px;
+     width        : 1024px;
+     margin-left  : auto;
+     margin-right : auto;
+     margin-bottom: 20px;
+ }
+
+ main {
+
+     min-height    : 100px;
+     margin-top    : 20px;
+     padding-bottom: 15px;
+     border-bottom : 10px dotted white;
+ }
+
+ .box1 {
+
+     min-height   : 300px;
+     display      : flex;
+     margin-bottom: 30px;
+     padding      : 15px 15px 0px 15px;
+
+ }
+
+ .box2 {
+     padding-top: 100px;
+     min-height : 300px;
+     display    : flex;
+     text-align : center;
+
+ }
+
+ .con1 {
+     flex         : 2;
+     min-height   : 50px;
+     padding-right: 70px;
+ }
+
+ .con2 {
+
+     flex               : 1;
+     padding-top        : 100px;
+     padding-left       : 10px;
+     background-image   : url(img/11.jpg);
+     background-position: center;
+     background-size    : cover;
+     background-repeat  : no-repeat;
+     margin-top         : 90px;
+     border-radius      : 20px;
+ }
+
+ .con3,
+ .con4,
+ .con5 {
+     padding            : 15px 15px 0px 15px;
+     margin             : 10px 10px 0px 10px;
+     background-position: center;
+     background-size    : cover;
+     background-repeat  : no-repeat;
+     flex               : 1
+ }
+
+
+ .con3 {
+     background-image: url(img/11.jpg);
+     border-radius   : 20px;
+
+ }
+
+ .con4 {
+     background-image: url(img/12.jpg);
+     border-radius   : 20px;
+
+ }
+
+ .con5 {
+     background-image: url(img/13.jpg);
+     border-radius   : 20px;
+
+ }
+
+ h1 {
+     font-size  : 20px;
+     color      : floralwhite;
+     line-height: 20px;
+ }
+
+ .glow {
+     font-size  : 50px;
+     color      : #fff;
+     animation  : glow 1s ease-in-out infinite alternate;
+     font-family: 'Orbitron', serif;
+
+ }
+
+ @-webkit-keyframes glow {
+     from {
+         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00a5ce, 0 0 40px #00a5ce, 0 0 50px #00a5ce, 0 0 60px #00a5ce, 0 0 70px #00a5ce;
+     }
+
+     to {
+         text-shadow: 0 0 20px #fff, 0 0 30px #BEE2EE, 0 0 40px #4ddbff, 0 0 50px #4ddbff, 0 0 60px #4ddbff, 0 0 70px #4ddbff, 0 0 80px #4ddbff;
+     }
+ }
+
+
+
+
+
+
+ h3 {
+     color      : beige;
+     font-family: 'Indie Flower', serif;
+     font-size  : 20px;
+     text-shadow: 3px 2px 6px black;
+ }
+
+ h6 {
+     color    : rgba(255, 255, 255, 0.479);
+     font-size: 18px;
+     margin   : 0px;
+ }
+
+ h5 {
+     font-size: 40px;
+     color    : floralwhite;
+     margin   : 0px;
+ }
+
+
+ .mainbox {
+
+     display: flex;
+ }
+
+ .boxLeftLogo {
+     margin-right: 120px;
+     flex        : 1;
+ }
+
+ .boxRightButton {
+     flex   : 1;
+     display: flex;
+
+ }
+
+ i {
+     font-size: 50px;
+ }
+
+ .box2 a {
+     text-decoration: none;
+ }
+
+ .box2 {
+     margin-bottom: 50px;
+ }
+
+ .box12 a {
+     box-shadow: 3px 2px 20px rgba(48, 44, 44, 0.301);
+
+ }
+
+
+
+ .btn-neon {
+     text-decoration : none;
+     text-transform  : uppercase;
+     text-align      : center;
+     font-size       : 19px;
+     line-height     : 50px;
+     color           : #f5f5f5;
+     width           : 180px;
+     transition      : 1s;
+     transition-delay: .9s;
+     position        : relative;
+     display         : inline-block;
+     font-family     : Arial, Helvetica, sans-serif;
+
+ }
+
+ .btn-neon:hover {
+     box-shadow: 0 0 10px #00a5ce,
+         0 0 40px #00a5ce,
+         0 0 80px #00a5ce;
+     background-color: #00a5ce;
+ }
+
+ .btn-neon:hover polyline {
+     stroke-dashoffset: -460;
+ }
+
+ .btn-neon svg {
+     position: absolute;
+     top     : 0;
+     left    : 0;
+     right   : 0;
+     bottom  : 0;
+     width   : 100%;
+     height  : 100%;
+ }
+
+ .btn-neon svg polyline {
+     fill             : transparent;
+     stroke           : #00a5ce;
+     stroke-width     : 2px;
+     stroke-dasharray : 40 460;
+     stroke-dashoffset: 40;
+     transition       : .8s ease-in-out;
+ }
+
+
+
+
+
+
+
+ .navbutton {
+
+     border         : 1px dotted white;
+     color          : white;
+     text-decoration: none;
+     font-family    : Arial, Helvetica, sans-serif;
+     /* padding     : 20px 20px 10px 20px ; */
+     width          : 160px;
+     height         : 40px;
+     padding-top    : 25px;
+
+     text-align     : center;
+     margin         : 20px 10px;
+     display        : inline-block;
+     text-decoration: none;
+ }
+
+ .navbutton:hover {
+     border             : 1px dotted black;
+     color              : black;
+     text-decoration    : none;
+     font-family        : Arial, Helvetica, sans-serif;
+     width              : 160px;
+     height             : 40px;
+     padding-top        : 25px;
+     text-align         : center;
+     margin             : 20px 10px;
+     transition-duration: 2s;
+ }
+
+ .navbutton_drop {
+
+     border         : 1px dotted white;
+     color          : white;
+     text-decoration: none;
+     font-family    : Arial, Helvetica, sans-serif;
+     width          : 160px;
+     height         : 40px;
+     margin-top     : 20px;
+     margin-left    : 28px;
+     text-decoration: none;
+     padding-top    : 20px;
+ }
+
+ .navbutton_drop:hover {
+     border             : 1px dotted black;
+     color              : black;
+     text-decoration    : none;
+     font-family        : Arial, Helvetica, sans-serif;
+     width              : 160px;
+     height             : 40px;
+     margin-top         : 20px;
+     margin-left        : 28px;
+     transition-duration: 2s;
+     padding-top        : 20px;
+
+ }
+
+ a {
+     text-decoration: none;
+     color          : white;
+ }
+
+ .boxchild {
+
+     display    : none;
+     position   : absolute;
+     padding-top: 13px;
+     margin-left: -30px;
+ }
+
+ .navbutton:hover .boxchild {
+
+     display: block;
+ }
+
+
+ .boxText {
+     display  : flex;
+     flex-wrap: wrap;
+ }
+
+ .boxt {
+     width     : 40%;
+     border    : 1px solid white;
+     padding   : 20px 15px;
+     color     : white;
+     margin    : 25px 33px;
+     text-align: center;
+ }
+
+ .boxt :last-child {
+     font-size: 20px;
+ }
+
+ /* ul :nth-child(3n){
+    color: red;
+} */
+ .php {
+     margin-top: 20px;
+ }
+
+ h2 {
+     margin-right: 5px;
+     color       : white;
+     font-size   : 15px;
+
+ }
+
+.lablephp {
+display: block;
+margin-bottom: 20px;
+
+ }
+ #name {
+     /* margin-left: 20px; */
+ }
+
+ #email {
+     /* margin-left: 72px; */
+ }
+
+ h4 {
+     color      : beige;
+     font-family: 'Indie Flower', serif;
+     font-size  : 20px;
+     text-shadow: 3px 2px 6px black;
+     margin     : 0px 10px 0px 0px;
+ }
+ .lablephpinlin{
+   display: inline-flex;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+.lablephpinlinradio{
+    display: inline-flex;
+   padding-left: 10px;
+   padding-right: 10px;
+}
